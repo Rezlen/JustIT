@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables and Lists</title>
+<!-- css intro -->
+<style>
+    table {border: 5px solid blue}
+    th,td {border: 5px solid red}
+</style>
+
+</head>
+<body>
+    <!-- creates a table  -->
+    <table>
+     
+        <!-- table headings -->
+        <thead>
+            <!-- create a column span -->
+            <tr>
+                <td colspan="3">
+                    Drinks menuuuuu
+                </td>
+            
+                
+            </tr>
+            <!-- table row: cells in a table -->
+            <tr>
+                <!-- cell table header -->
+                <th>Drink</th>
+                <th>Cost</th>
+                <th>Served</th>
+                <!-- <th>In stock</th> -->
+              
+            </tr>
+            
+        </thead>
+
+        <!-- table body  -->
+        <tbody>
+            <tr>
+                <!-- cell table data -->
+                <td>Water</td>
+                <td>£1.50</td>
+                <td>Cold</td>
+              <td rowspan="3">
+                Drinks menuuuu
+              </td>
+            </tr>
+
+        </tbody>
+       
+        <!-- Table foot -->
+        <tfoot>
+
+            <tr>
+                <td colspan="2">tfoot</td>
+                <td>tfoot</td>
+                <!-- <td>tfoot</td> -->
+                
+            </tr>
+            <tr><td colspan="3">End</td></tr>
+        </tfoot>
+
+    </table>
+<br>
+<br>
+<table>
+    <!-- <tr>
+        <td colspan="3">
+            Drinks menu
+        </td>
+    </tr> -->
+    <tr>
+        <!-- cell table header -->
+        <th>Drink</th>
+        <th>Cost</th>
+        <th>Served</th>
+        <!-- <th>In stock</th> -->
+            <td rowspan="2"> Five rows</td>
+    </tr>
+<tr>
+    <!-- cell table data -->
+    <td>Water</td>
+    <td>£1.50</td>
+    <td>Cold</td>
+
+</tr>
+
+</table>
+<h1>Lists</h1>
+<!-- ul = unordered lists -->
+<ul>
+    <li>Movies
+        <ul>
+            <li>Action</li>
+            <li>Comedy</li>
+        </ul>
+    </li>
+    <li>B</li>
+    <li>C</li>
+</ul>
+
+<!-- ol = ordered lists -->
+<ol>
+    <li>SDLC</li>
+    <li>HTML
+        <ol>
+            <li>Theory</li>
+            <li>Coding</li>
+        </ol>
+    </li>
+    <li>CSS</li>
+</ol>
+
+<!-- ol = ordered lists: Alter default type -->
+<ol type="A">
+    <h1>Altered</h1>
+    <li>SDLC</li>
+    <li>HTML
+        <ol>
+            <li>Theory</li>
+            <li>Coding</li>
+        </ol>
+    </li>
+    <li>CSS</li>
+</ol>
+
+
+<ol reversed>
+    <h1>Reversed</h1>
+    <li>Movies</li>
+    <li>Songs</li>
+    <li>Games</li>
+</ol>
+</body>
+</html>
