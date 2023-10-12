@@ -27,9 +27,9 @@ const Background = (props) => {
   return (
     <div id="particle-background">
       <div className="background">
-        {/* <button onClick={() => setTheme("light")}>Light</button>
+        <button onClick={() => setTheme("light")}>Light</button>
 
-        <button onClick={() => setTheme("dark")}>Dark</button> */}
+        <button onClick={() => setTheme("dark")}>Dark</button>
         <Particles
           theme={theme}
           id="tsparticles"

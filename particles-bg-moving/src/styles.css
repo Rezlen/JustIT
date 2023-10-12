@@ -3,7 +3,8 @@
   text-align: center;
 }
 
-/* button {
+button {
   background-color: transparent;
   border: none;
-} */
+  color: rgb(245, 229, 229);
+}
