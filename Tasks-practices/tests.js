@@ -18,10 +18,34 @@ for (let username in usernames) {
 
 
 /////////////
-for (let i = 2; i <= 6; i++) {
-  return i % 2 == 0 ? "even" : "odd";
+// for (let i = 2; i <= 6; i++) {
+//   return i % 2 == 0 ? "even" : "odd";
+// }
+
+// var item = [1,2,3,4]
+// function functionName(item) {
+//   console.log(item % 2 == 0 ? "even" : "odd")
+// }
+// return FunctionName(item);
+//
+
+
+var item1 = [1,2,3,4]
+
+function functionName(item) {
+    result = item % 2 == 0 ? "even" : "odd"
+  console.log(result)
+    return 
 }
 
+for (i in item1) {
+  functionName(i)
+}
+
+//// just accessing a HTML line by JS/DOM
+let main = document.getElementById("inOne");
+console.log('line 51', main)
+////
 
 
 
